@@ -26,17 +26,17 @@ nav {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    color: #777777;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #777777;
 }
 
 li {
-    padding: 0 20px;
-    border-right: 2px solid #cccccc;
-    display: inline;
+  padding: 0 20px;
+  border-right: 2px solid #cccccc;
+  display: inline;
 }
 
 li:last-child {
@@ -53,7 +53,7 @@ li a {
   background: url('../images/ignasi_pattern_s.png') no-repeat;
   background-size: 100%;
   margin: 0 auto;
-  height: 480px;
+  height: 550px;
   padding: 40px 0;
 }
 
@@ -64,21 +64,35 @@ section {
   background-color: #ffffff;
 }
 
+.section-head {
+  height: 50px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #cccccc;
+}
+
 aside {
   display: inline-block;
   float:right;
   background-color: #ffffff;
-  width: 270px;
+  width: 230px;
+  padding: 20px;
 }
 
 aside a {
   text-decoration: none;
 }
 
+.aside-head {
+  height: 40px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #cccccc;
+}
+
 .logo {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   display: inline;
+  margin-right: 3px;
 }
 
 h1 {
@@ -110,11 +124,40 @@ h2, h3 {
   color: #4aaaa5;
 }
 
+form {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #cccccc;
+}
+
+input {
+  width: 580px;
+  height: 25px;
+}
+
+input:last-child {
+  width: 100px;
+  height: 35px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+}
+
+textarea {
+  width: 580px;
+  height: 160px;
+}
+
 footer {
   height: 100px;
   line-height: 80px;
   text-align: center;
   background-color: #666666;
   color: #cccccc;
-  border-top: 10px solid #4aaaa5;
+  border-top: 6px solid #4aaaa5;
+}
+
+.portfolio-item {
+  display: inline-block;
+  width: 250px;
 }
