@@ -5,34 +5,48 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-  <header><h1>Cody Brannon</h1></header>
-  <nav>
-    <ul>
-      <li><a href="#">About</a> |</li>
-      <li><a href="#">Portfolio</a> |</li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-  <section>
-    <h2>Contact</h2>
-    <article>
-      <form>
-        Name<br>
-        <input type="text" name="fullname" value="John Smith"><br>
-        Email<br>
-        <input type="text" name="email" value="example@gmail.com"><br>
-        Message<br>
-        <textarea></textarea>
-        <input type="submit" value="Submit">
-      </form>
-    </article>
-  </section>
-  <aside>
-    <h3>Connect with Me</h3>
-    <img src="assets/images/Octocat.jpg" alt="github-logo">
-    <img src="assets/images/In-2C-128px-TM.png" alt="linkedin-logo">
-    <img src="assets/images/so-icon.png" alt="stackoverflow-logo">
-  </aside>
+  <div class="header">
+    <div class="header-info">
+      <header><h1>Cody Brannon</h1></header>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li> |
+          <li><a href="portfolio.html">Portfolio</a></li> |
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="container">
+    <div class="main">
+      <section class="about-me">
+        <h2>Contact</h2>
+        <article>
+          <form>
+            Name<br>
+            <input type="text" name="fullname" placeholder="John Smith"><br>
+            Email<br>
+            <input type="text" name="email" placeholder="example@gmail.com"><br>
+            Message<br>
+            <textarea></textarea><br>
+            <input type="submit" value="Submit">
+          </form>
+        </article>
+      </section>
+      <aside>
+        <h3>Connect with Me</h3>
+        <a href="https://github.com/cbrannon" target="_blank">
+          <img src="assets/images/github_square_black.png" alt="github" class="logo">
+        </a>
+        <a href="https://www.linkedin.com/in/cody-brannon-400a71110/" target="_blank">
+          <img src="assets/images/linkedin_square_color.png" alt="linkedin" class="logo">
+        </a>
+        <a href="http://stackoverflow.com/users/7255010/cbrannon" target="_blank">
+          <img src="assets/images/overflow.png" alt="stackoverflow"  class="logo">
+        </a>
+      </aside>
+    </div>
+  </div>
   <footer>
     <p>&copy; Copyright 2016 Cody Brannon</p>
   </footer>

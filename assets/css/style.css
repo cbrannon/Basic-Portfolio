@@ -38,6 +38,10 @@ li {
     display: inline;
 }
 
+li:last-child {
+  margin-right: 0;
+}
+
 li a {
   text-decoration: none;
   color: #777777;
@@ -51,13 +55,31 @@ li a {
 }
 
 section {
+  display: inline-block;
   padding: 30px;
   width: 590px;
-  background-color: white;
+  background-color: #ffffff;
+}
+
+aside {
+  display: inline-block;
+  float:right;
+  background-color: #ffffff;
+  width: 270px;
+}
+
+aside a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  display: inline;
 }
 
 h1 {
-  color: white;
+  color: #ffffff;
 }
 
 h2 {
@@ -73,14 +95,19 @@ p, a {
 }
 
 .profilepic {
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
 }
 
 h2, h3 {
   color: #4aaaa5;
 }
 
-aside {
-  width: 270px;
+footer {
+  height: 100px;
+  line-height: 80px;
+  text-align: center;
+  background-color: #666666;
+  color: #cccccc;
+  border-top: 10px solid #4aaaa5;
 }
