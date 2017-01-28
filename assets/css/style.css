@@ -1,4 +1,4 @@
-body, .container {
+body {
   margin: 0 auto;
   padding: 0;
 }
@@ -16,7 +16,7 @@ body, .container {
 header {
   display: inline-block;
   background-color: #4aaaa5;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 nav {
@@ -46,13 +46,14 @@ li a {
 .container {
   background: url('../images/ignasi_pattern_s.png') no-repeat;
   background-size: 100%;
-  margin-top: 0;
+  margin: 0 auto;
+  padding: 40px 0;
 }
 
 section {
-  width: 650px;
+  padding: 30px;
+  width: 590px;
   background-color: white;
-
 }
 
 h1 {
