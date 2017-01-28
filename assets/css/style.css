@@ -13,15 +13,35 @@ body {
   margin: 0 auto;
 }
 
-header {
+.inline-block-element {
   display: inline-block;
+}
+
+.green-text {
+  color: #4aaaa5;
+}
+
+.green-background {
   background-color: #4aaaa5;
+}
+
+.float-right {
+  float: right;
+}
+
+.grey-text {
+  color: #cccccc;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+header {
   padding: 0 30px;
 }
 
 nav {
-  display: inline-block;
-  float: right;
   margin-top: 30px;
 }
 
@@ -57,11 +77,17 @@ li a {
   padding: 40px 0;
 }
 
+.portfolio-container {
+  background: url('../images/ignasi_pattern_s.png') no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+  height: 900px;
+  padding: 40px 0;
+}
+
 section {
-  display: inline-block;
   padding: 30px;
   width: 590px;
-  background-color: #ffffff;
 }
 
 .section-head {
@@ -71,11 +97,8 @@ section {
 }
 
 aside {
-  display: inline-block;
-  float:right;
-  background-color: #ffffff;
   width: 230px;
-  padding: 20px;
+  padding: 5px 20px 20px;
 }
 
 aside a {
@@ -92,7 +115,11 @@ aside a {
   width: 70px;
   height: 70px;
   display: inline;
-  margin-right: 3px;
+  margin-right: 5px;
+}
+
+.last-logo {
+  margin-right: 0;
 }
 
 h1 {
@@ -111,22 +138,13 @@ p, a {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-p {
-  color: #cccccc;
-}
-
 .profilepic {
   width: 25%;
   height: 25%;
 }
 
-h2, h3 {
-  color: #4aaaa5;
-}
-
 form {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #cccccc;
 }
 
 input {
@@ -137,7 +155,6 @@ input {
 input:last-child {
   width: 100px;
   height: 35px;
-  background-color: #4aaaa5;
   color: #ffffff;
   border: none;
   font-size: 15px;
@@ -153,11 +170,16 @@ footer {
   line-height: 80px;
   text-align: center;
   background-color: #666666;
-  color: #cccccc;
   border-top: 6px solid #4aaaa5;
 }
 
 .portfolio-item {
-  display: inline-block;
-  width: 250px;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  background-color: green;
+}
+
+#hangman-item {
+  background-image: url("http://www.placehold.it/200x200");
 }
