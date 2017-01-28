@@ -34,12 +34,14 @@ ul {
 }
 
 li {
-    margin: 0 20px;
+    padding: 0 20px;
+    border-right: 2px solid #cccccc;
     display: inline;
 }
 
 li:last-child {
-  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
 }
 
 li a {
@@ -51,6 +53,7 @@ li a {
   background: url('../images/ignasi_pattern_s.png') no-repeat;
   background-size: 100%;
   margin: 0 auto;
+  height: 480px;
   padding: 40px 0;
 }
 
@@ -92,6 +95,10 @@ h1, h2, h3 {
 
 p, a {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+  color: #cccccc;
 }
 
 .profilepic {
