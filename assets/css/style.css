@@ -1,8 +1,4 @@
-body {
-  margin: 0 auto;
-}
-
-.margin-auto-sides {
+body, .margin-auto-sides {
   margin: 0 auto;
 }
 
@@ -46,6 +42,10 @@ body {
   color: #cccccc;
 }
 
+.dark-grey-text {
+  color: #777777;
+}
+
 .grey-bottom-border {
   border-bottom: 2px solid #cccccc;
 }
@@ -58,6 +58,9 @@ body {
   color: #ffffff;
 }
 
+.zero-top {
+  margin-top: 0;
+}
 
 header {
   padding: 0 30px;
@@ -71,7 +74,6 @@ ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  color: #777777;
 }
 
 article {
@@ -81,7 +83,6 @@ article {
 li {
   padding: 0 20px;
   border-right: 2px solid #cccccc;
-  display: inline;
 }
 
 li:last-child {
@@ -92,11 +93,6 @@ li:last-child {
 .bio {
   width: 70%;
   margin-left: 20px;
-  margin-top: 0;
-}
-
-li a {
-  color: #777777;
 }
 
 a {
@@ -107,13 +103,15 @@ a {
   background: url('../images/ignasi_pattern_s.png') no-repeat;
   background-size: 100%;
   height: 550px;
-  padding: 40px 0;
 }
 
 .portfolio-container {
   background: url('../images/ignasi_pattern_s.png') no-repeat;
   background-size: 100%;
   height: 900px;
+}
+
+.container-padding {
   padding: 40px 0;
 }
 
@@ -124,50 +122,40 @@ section {
 
 .section-head {
   height: 50px;
-  margin-bottom: 25px;
   border-bottom: 3px solid #cccccc;
 }
 
 aside {
   width: 230px;
-  padding: 5px 20px 20px;
-}
-
-aside a {
-  text-decoration: none;
+  padding: 0 20px 20px;
 }
 
 .aside-head {
   height: 40px;
+}
+
+.heads-bottom-margin {
   margin-bottom: 25px;
 }
 
 .logo {
   width: 70px;
   height: 70px;
-  display: inline;
   margin-right: 5px;
-}
-
-.last-logo {
-  margin-right: 0;
-}
-
-h2 {
-  margin-top: 0;
 }
 
 .serif {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-p, a, form {
+.sans-serif {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .profilepic {
   width: 25%;
   height: 25%;
+  align: left;
 }
 
 input {
@@ -178,7 +166,6 @@ input {
 input:last-child {
   width: 100px;
   height: 35px;
-  color: #ffffff;
   border: none;
   font-size: 15px;
 }
@@ -197,24 +184,22 @@ footer {
 }
 
 .portfolio-item {
-  width: 280px;
+  width: 275px;
   height: 200px;
-  margin: 10px 30px 40px 0;
-  background-color: black;
+  margin: 10px 40px 40px 0;
   background-size: cover;
-}
-
-.portfolio-item-right {
-  margin-right: 0;
 }
 
 .tag {
   text-align: center;
-  background-color: #4aaaa5;
   height: 60px;
   line-height: 60px;
   margin-top: 130px;
 
+}
+
+.zero-right {
+  margin-right: 0;
 }
 
 #hangman {
