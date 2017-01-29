@@ -4,12 +4,14 @@
   <title>Cody's Basic Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-  <div class="header">
-    <div class="header-info">
-      <header class="inline-block-element green-background"><h1>Cody Brannon</h1></header>
+<body class="no-padding margin-auto-sides">
+  <div class="header grey-bottom-border">
+    <div class="header-info margin-auto-sides">
+      <header class="inline-block-element green-background">
+        <h1 class="white-text serif">Cody Brannon</h1>
+      </header>
       <nav class="inline-block-element float-right">
-        <ul>
+        <ul class="no-padding">
           <li><a href="index.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -17,22 +19,34 @@
       </nav>
     </div>
   </div>
-  <div class="container">
-    <div class="main">
+  <div class="container margin-auto-sides">
+    <div class="main margin-auto-sides">
       <section class="inline-block-element white-background about-me">
         <div class="section-head">
-          <h2 class="green-text">About Me</h2>
+          <h2 class="green-text serif">About Me</h2>
         </div>
         <article>
-          <img class="inline-block-element profilepic" src="assets/images/profile-image.jpg" alt="myface">
-          <p class="inline-block-element grey-text">I like long walks on the beach, kittens and indie rock.
-            My father's name is Khal Drogo and my mother is Princess Leia.
-            I run on coffee, video games, and animal gifs.</p>
+          <div class="top-bio">
+            <img class="inline-element float-left profilepic" src="assets/images/profile-image.jpg" alt="myface">
+            <p class="inline-element float-left grey-text bio">I like long walks on the beach, kittens and indie rock.
+              My father's name is Khal Drogo and my mother is Princess Leia.
+              I run on coffee, video games, and animal gifs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                venenatis laoreet congue. Proin elementum risus a dui euismod, a egestas
+                lorem euismod. Curabitur a gravida nibh. Etiam pulvinar libero turpis,
+                et imperdiet ex tincidunt sit amet. Praesent scelerisque ante vitae</p>
+          </div>
+          <div class="bottom-bio">
+            <p class="float-left grey-text">
+            accumsan. Maecenas nec sapien lectus. Maecenas aliquam sit amet neque in
+            accumsan. In mollis malesuada tempor. Curabitur maximus, felis at rutrum
+            finibus, augue mauris pellentesque diam, a vestibulum tellus ipsum vel
+            lacus. Donec rhoncus suscipit enim sit amet fringilla.</p>
+          </div>
         </article>
       </section>
       <aside class="inline-block-element white-background float-right">
-        <div class="aside-head">
-          <h3 class="green-text">Connect with Me</h3>
+        <div class="aside-head grey-bottom-border">
+          <h3 class="green-text serif">Connect with Me</h3>
         </div>
         <a href="https://github.com/cbrannon" target="_blank">
           <img src="assets/images/github_square_black.png" alt="github" class="logo">

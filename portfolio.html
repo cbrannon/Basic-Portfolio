@@ -4,12 +4,14 @@
   <title>Cody's Basic Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-  <div class="header">
-    <div class="header-info">
-      <header><h1>Cody Brannon</h1></header>
-      <nav>
-        <ul>
+<body class="no-padding margin-auto-sides">
+  <div class="header grey-bottom-border">
+    <div class="header-info margin-auto-sides">
+      <header class="inline-block-element green-background">
+        <h1 class="white-text">Cody Brannon</h1>
+      </header>
+      <nav class="inline-block-element float-right">
+        <ul class="no-padding">
           <li><a href="index.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -17,42 +19,43 @@
       </nav>
     </div>
   </div>
-  <div class="portfolio-container">
-    <div class="main">
-      <section class="about-me">
+  <div class="portfolio-container margin-auto-sides">
+    <div class="main margin-auto-sides">
+      <section class="inline-block-element white-background about-me">
         <div class="section-head">
-          <h2>Portfolio</h2>
+          <h2 class="green-text">Portfolio</h2>
         </div>
-        <article>
-          <div class="inline-block-element portfolio-item">
-            <a href="#">
-              <div id="hangman-item">
-                <div class="tag">Hangman</div>
-                <!--<img src="http://www.placehold.it/200x200" alt="hanngman">-->
-              </div>
-            </a>
-          </div>
-          <div class="inline-block-element portfolio-item">
-              <div class="tag">RPG Game</div>
-              <img src="http://www.placehold.it/200x200" alt="rpg game">
-          </div>
-          <div class="inline-block-element portfolio-item">
-              <div class="tag">Trivia Game</div>
-              <img src="http://www.placehold.it/200x200" alt="trivia game">
-          </div>
-          <div class="inline-block-element portfolio-item">
-              <div class="tag">Rutgers Info Widget</div>
-              <img src="http://www.placehold.it/200x200" alt="rutgers info widget">
-          </div>
-          <div class="inline-block-element portfolio-item">
-              <div class="tag">Rock Paper Scissors</div>
-              <img src="http://www.placehold.it/200x200" alt="rock paper scissors game">
-          </div>
+        <article class="portfolio">
+          <a href="#">
+            <div class="inline-block-element float-left portfolio-item" id="hangman">
+              <div class="tag white-text serif">Hangman</div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="inline-block-element float-left portfolio-item portfolio-item-right" id="rpggame">
+              <div class="tag white-text serif">RPG Game</div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="inline-block-element float-left portfolio-item" id="triviagame">
+              <div class="tag white-text serif">Trivia Game</div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="inline-block-element float-left portfolio-item portfolio-item-right" id="rutgersinfo">
+              <div class="tag white-text serif">Rutgers Info Widget</div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="inline-block-element float-left portfolio-item" id="rockpaperscissors">
+              <div class="tag white-text serif">Rock Paper Scissors</div>
+            </div>
+          </a>
         </article>
       </section>
-      <aside>
-        <div class="aside-head">
-          <h3>Connect with Me</h3>
+      <aside class="inline-block-element white-background float-right">
+        <div class="aside-head grey-bottom-border">
+          <h3 class="green-text">Connect with Me</h3>
         </div>
         <a href="https://github.com/cbrannon" target="_blank">
           <img src="assets/images/github_square_black.png" alt="github" class="logo">
@@ -67,7 +70,7 @@
     </div>
   </div>
   <footer>
-    <p>&copy; Copyright 2016 Cody Brannon</p>
+    <p class="grey-text">&copy; Copyright 2016 Cody Brannon</p>
   </footer>
 </body>
 </html>
