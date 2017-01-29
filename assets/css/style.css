@@ -93,6 +93,7 @@ li:last-child {
 .bio {
   width: 70%;
   margin-left: 20px;
+  line-height: 2;
 }
 
 a {
@@ -100,15 +101,16 @@ a {
 }
 
 .container {
-  background: url('../images/ignasi_pattern_s.png') no-repeat;
-  background-size: 100%;
   height: 550px;
 }
 
 .portfolio-container {
-  background: url('../images/ignasi_pattern_s.png') no-repeat;
-  background-size: 100%;
   height: 900px;
+}
+
+.background {
+  background: url('../images/ignasi_pattern_s.png');
+  background-repeat: repeat;
 }
 
 .container-padding {
@@ -138,10 +140,11 @@ aside {
   margin-bottom: 25px;
 }
 
-.logo {
+.logo-block {
   width: 70px;
   height: 70px;
   margin-right: 5px;
+  background-size: cover;
 }
 
 .serif {
@@ -156,6 +159,7 @@ aside {
   width: 25%;
   height: 25%;
   align: left;
+  margin-right: 20px;
 }
 
 input {
@@ -172,15 +176,11 @@ input:last-child {
 
 textarea {
   width: 580px;
-  height: 160px;
+  height: 190px;
 }
 
-footer {
-  height: 100px;
-  line-height: 80px;
-  text-align: center;
-  background-color: #666666;
-  border-top: 6px solid #4aaaa5;
+.input-top-margin {
+  margin-top: 5px;
 }
 
 .portfolio-item {
@@ -200,6 +200,43 @@ footer {
 
 .zero-right {
   margin-right: 0;
+}
+
+footer {
+  height: 100px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 12px;
+  background-color: #666666;
+  border-top: 6px solid #4aaaa5;
+}
+
+a:hover {
+  color: #4aaaa5;
+}
+
+#github {
+  background-image: url("../images/github_square_black.png");
+}
+
+#github:hover {
+  background-image: url("../images/github_square_white.png");
+}
+
+#linkedin {
+  background-image: url("../images/linkedin_square_color.png");
+}
+
+#linkedin:hover {
+  background-image: url("../images/linkedin_square_white.png");
+}
+
+#overflow {
+  background-image: url("../images/overflow.png");
+}
+
+#overflow:hover {
+  background-image: url("../images/overflow-white.png");
 }
 
 #hangman {
