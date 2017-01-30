@@ -6,10 +6,6 @@ body, .margin-auto-sides {
   margin: 0 auto;
 }
 
-.header {
-  margin-bottom: 0;
-}
-
 .header-info, .main {
   width: 960px;
 }
@@ -202,12 +198,7 @@ textarea {
   background-size: cover;
 }
 
-.portfolio-last {
-  margin-bottom: 0;
-}
-
 .tag {
-  text-align: center;
   height: 60px;
   line-height: 60px;
   margin-top: 130px;
@@ -231,9 +222,12 @@ footer, .full-site-container:after {
   height: 106px;
 }
 
+.tag, footer {
+  text-align: center;
+}
+
 footer {
   line-height: 80px;
-  text-align: center;
   font-size: 12px;
   background-color: #666666;
   border-top: 6px solid #4aaaa5;
