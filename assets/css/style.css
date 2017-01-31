@@ -63,14 +63,16 @@ body, .margin-auto-sides {
 }
 
 .submit {
+  width: 100px;
+  height: 35px;
+  border: none;
+  font-size: 15px;
   cursor: pointer;
 }
 
 .submit:hover {
-  background: #ffffff;
+  background: #dddddd;
   color: #4aaaa5;
-  font-weight: bold;
-  border: 3px solid #dddddd;
 }
 
 header {
@@ -160,7 +162,7 @@ aside {
 }
 
 .profilepic {
-  width: 200px;
+  width: 250px;
   align: left;
   margin: 10px 20px 0 0;
 }
@@ -171,20 +173,16 @@ aside {
 }
 
 input {
-  width: 580px;
   height: 25px;
 }
 
-input:last-child {
-  width: 100px;
-  height: 35px;
-  border: none;
-  font-size: 15px;
+textarea {
+  max-width: 582px;
+  height: 190px;
 }
 
-textarea {
-  width: 580px;
-  height: 190px;
+input, textarea {
+  width: 582px;
 }
 
 .input-top-margin {
@@ -202,7 +200,6 @@ textarea {
   height: 60px;
   line-height: 60px;
   margin-top: 130px;
-
 }
 
 .portfolio-item:hover .tag {
