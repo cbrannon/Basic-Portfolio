@@ -242,6 +242,10 @@ footer, .full-site-container:after {
   text-align: center;
 }
 
+#subject {
+  display: none;
+}
+
 #profilepic {
   width: 250px;
   align: left;
