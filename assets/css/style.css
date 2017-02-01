@@ -10,6 +10,9 @@ body, .margin-auto-sides {
 
 header {
   padding: 0 30px;
+  height: 75px;
+  line-height: 75px;
+  font-size: 30px;
 }
 
 nav {
@@ -67,6 +70,14 @@ aside {
   width: 960px;
 }
 
+.header-info {
+  height: 75px;
+}
+
+.header-bar {
+  height: 75px;
+}
+
 .no-padding {
   padding: 0;
 }
@@ -108,6 +119,7 @@ aside {
 }
 
 .section-head {
+  font-size: 30px;
   height: 50px;
   border-bottom: 3px solid #cccccc;
 }
@@ -122,6 +134,8 @@ aside {
 
 .aside-head {
   height: 40px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
 .heads-bottom-margin {
